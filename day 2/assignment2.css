@@ -1,0 +1,44 @@
+.card{
+    margin: 50px auto;
+    height: 360px;
+    width: 600px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img4{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.hl{
+    position: absolute;
+    top: 150px;
+    right: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.desc{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    bottom: 70px;
+    right: 230px;
+    width: 130px;
+    height: 40px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,106 @@
+.card{
+    margin: 50px auto;
+    height: 220px;
+    width: 700px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img5{
+    height: 100%;
+    width: 100%;
+}
+
+.shadow{
+    position:absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.493);
+}
+
+.hl{
+    position: absolute;
+    top: 36px;
+    right: 290px;
+    color: white;
+    font-weight: 1000;
+    font-size: 36px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.desc{
+    position: absolute;
+    top: 86px;
+    right: 170px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ser{
+    position: absolute;
+    bottom: 62px;
+    right: 160px;
+    width: 370px;
+    height: 10px;
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.loc{
+    position: absolute;
+    bottom: 69px;
+    left: 145px;
+    height: 16px;
+    width: 16px;
+}
+
+.dest{
+    position: absolute;
+    bottom: 70px;
+    left: 165px;
+    font-size: 12px;
+}
+
+.dd{
+    position: absolute;
+    bottom: 72px;
+    left: 245px;
+    height: 14px;
+    width: 14px;
+}
+
+.rd{
+    width: 210px;
+    position: absolute;
+    bottom: 71px;
+    left: 293px;
+    border: none;
+}
+.rd::placeholder{
+    color: gray;
+    font-size: 10px ;
+    
+}
+
+.vr{
+    position: absolute;
+    bottom: 71px;
+    left: 265px;
+    height: 15px;
+    width: 5px;
+    border-left: 1px solid lightgrey;
+}
+
+.serc{
+    position: absolute;
+    bottom: 72px;
+    left: 274px;
+    height: 12px;
+    width: 12px;
+}
